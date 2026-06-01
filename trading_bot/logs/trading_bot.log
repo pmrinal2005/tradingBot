@@ -1,0 +1,84 @@
+[2025-01-15T09:23:44] [INFO   ] trading_bot — ⚡ NeonTrader — Binance Futures Testnet
+[2025-01-15T09:23:44] [INFO   ] trading_bot — Base URL: https://testnet.binancefuture.com
+[2025-01-15T09:23:44] [INFO   ] trading_bot — Order requested: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': '0.001', 'price': None, 'stop_price': None, 'time_in_force': 'GTC'}
+[2025-01-15T09:23:44] [DEBUG  ] trading_bot — [VALIDATION PASSED] All parameters are valid.
+[2025-01-15T09:23:44] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:23:44] [INFO   ] trading_bot —   📋 ORDER REQUEST SUMMARY
+[2025-01-15T09:23:44] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:23:44] [INFO   ] trading_bot —   Symbol      : BTCUSDT
+[2025-01-15T09:23:44] [INFO   ] trading_bot —   Side        : BUY
+[2025-01-15T09:23:44] [INFO   ] trading_bot —   Type        : MARKET
+[2025-01-15T09:23:44] [INFO   ] trading_bot —   Quantity    : 0.001
+[2025-01-15T09:23:44] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:23:44] [INFO   ] trading_bot — 📤 Placing order → MARKET BUY 0.001 BTCUSDT @ price=MARKET stopPrice=N/A
+[2025-01-15T09:23:44] [DEBUG  ] trading_bot — → POST /fapi/v1/order | body=symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=1736933024412&signature=***
+[2025-01-15T09:23:45] [DEBUG  ] trading_bot — ← POST /fapi/v1/order | status=200
+[2025-01-15T09:23:45] [INFO   ] trading_bot — 📥 Order response — orderId=4091342857 status=FILLED executedQty=0.001 avgPrice=94832.50
+[2025-01-15T09:23:45] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:23:45] [INFO   ] trading_bot —   ✅ ORDER RESPONSE DETAILS
+[2025-01-15T09:23:45] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:23:45] [INFO   ] trading_bot —   orderId     : 4091342857
+[2025-01-15T09:23:45] [INFO   ] trading_bot —   status      : FILLED
+[2025-01-15T09:23:45] [INFO   ] trading_bot —   executedQty : 0.001
+[2025-01-15T09:23:45] [INFO   ] trading_bot —   avgPrice    : 94832.50 USDT
+[2025-01-15T09:23:45] [INFO   ] trading_bot —   type        : MARKET
+[2025-01-15T09:23:45] [INFO   ] trading_bot —   side        : BUY
+[2025-01-15T09:23:45] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:23:45] [INFO   ] trading_bot — ✅ Order placed successfully!
+[2025-01-15T09:31:17] [INFO   ] trading_bot — Order requested: {'symbol': 'ETHUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': '0.01', 'price': '3200', 'stop_price': None, 'time_in_force': 'GTC'}
+[2025-01-15T09:31:17] [DEBUG  ] trading_bot — [VALIDATION PASSED] All parameters are valid.
+[2025-01-15T09:31:17] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:31:17] [INFO   ] trading_bot —   📋 ORDER REQUEST SUMMARY
+[2025-01-15T09:31:17] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:31:17] [INFO   ] trading_bot —   Symbol      : ETHUSDT
+[2025-01-15T09:31:17] [INFO   ] trading_bot —   Side        : SELL
+[2025-01-15T09:31:17] [INFO   ] trading_bot —   Type        : LIMIT
+[2025-01-15T09:31:17] [INFO   ] trading_bot —   Quantity    : 0.01
+[2025-01-15T09:31:17] [INFO   ] trading_bot —   Price       : 3200 USDT
+[2025-01-15T09:31:17] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:31:17] [INFO   ] trading_bot — 📤 Placing order → LIMIT SELL 0.01 ETHUSDT @ price=3200 stopPrice=N/A
+[2025-01-15T09:31:17] [DEBUG  ] trading_bot — → POST /fapi/v1/order | body=symbol=ETHUSDT&side=SELL&type=LIMIT&quantity=0.01&price=3200&timeInForce=GTC&timestamp=1736933477321&signature=***
+[2025-01-15T09:31:18] [DEBUG  ] trading_bot — ← POST /fapi/v1/order | status=200
+[2025-01-15T09:31:18] [INFO   ] trading_bot — 📥 Order response — orderId=4091358291 status=NEW executedQty=0 avgPrice=0
+[2025-01-15T09:31:18] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:31:18] [INFO   ] trading_bot —   ✅ ORDER RESPONSE DETAILS
+[2025-01-15T09:31:18] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:31:18] [INFO   ] trading_bot —   orderId     : 4091358291
+[2025-01-15T09:31:18] [INFO   ] trading_bot —   status      : NEW
+[2025-01-15T09:31:18] [INFO   ] trading_bot —   executedQty : 0
+[2025-01-15T09:31:18] [INFO   ] trading_bot —   avgPrice    : 0 USDT
+[2025-01-15T09:31:18] [INFO   ] trading_bot —   type        : LIMIT
+[2025-01-15T09:31:18] [INFO   ] trading_bot —   side        : SELL
+[2025-01-15T09:31:18] [INFO   ] trading_bot —   limitPrice  : 3200.00 USDT
+[2025-01-15T09:31:18] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:31:18] [INFO   ] trading_bot — ✅ Order placed successfully!
+[2025-01-15T09:45:02] [INFO   ] trading_bot — Order requested: {'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'STOP', 'quantity': '0.001', 'price': '59950', 'stop_price': '60000', 'time_in_force': 'GTC'}
+[2025-01-15T09:45:02] [DEBUG  ] trading_bot — [VALIDATION PASSED] All parameters are valid.
+[2025-01-15T09:45:02] [DEBUG  ] trading_bot — Stop-Limit validation: SELL side — stopPrice(60000) > price(59950) ✓
+[2025-01-15T09:45:02] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:45:02] [INFO   ] trading_bot —   📋 ORDER REQUEST SUMMARY
+[2025-01-15T09:45:02] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:45:02] [INFO   ] trading_bot —   Symbol      : BTCUSDT
+[2025-01-15T09:45:02] [INFO   ] trading_bot —   Side        : SELL
+[2025-01-15T09:45:02] [INFO   ] trading_bot —   Type        : STOP
+[2025-01-15T09:45:02] [INFO   ] trading_bot —   Quantity    : 0.001
+[2025-01-15T09:45:02] [INFO   ] trading_bot —   Price       : 59950 USDT
+[2025-01-15T09:45:02] [INFO   ] trading_bot —   Stop Price  : 60000 USDT
+[2025-01-15T09:45:02] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:45:02] [INFO   ] trading_bot — 📤 Placing order → STOP SELL 0.001 BTCUSDT @ price=59950 stopPrice=60000
+[2025-01-15T09:45:02] [DEBUG  ] trading_bot — → POST /fapi/v1/order | body=symbol=BTCUSDT&side=SELL&type=STOP&quantity=0.001&price=59950&stopPrice=60000&timeInForce=GTC&timestamp=1736934302100&signature=***
+[2025-01-15T09:45:03] [DEBUG  ] trading_bot — ← POST /fapi/v1/order | status=200
+[2025-01-15T09:45:03] [INFO   ] trading_bot — 📥 Order response — orderId=4091399012 status=NEW executedQty=0 avgPrice=0
+[2025-01-15T09:45:03] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:45:03] [INFO   ] trading_bot —   ✅ ORDER RESPONSE DETAILS
+[2025-01-15T09:45:03] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:45:03] [INFO   ] trading_bot —   orderId     : 4091399012
+[2025-01-15T09:45:03] [INFO   ] trading_bot —   status      : NEW
+[2025-01-15T09:45:03] [INFO   ] trading_bot —   executedQty : 0
+[2025-01-15T09:45:03] [INFO   ] trading_bot —   avgPrice    : 0 USDT
+[2025-01-15T09:45:03] [INFO   ] trading_bot —   type        : STOP
+[2025-01-15T09:45:03] [INFO   ] trading_bot —   side        : SELL
+[2025-01-15T09:45:03] [INFO   ] trading_bot —   limitPrice  : 59950.00 USDT
+[2025-01-15T09:45:03] [INFO   ] trading_bot —   stopPrice   : 60000.00 USDT
+[2025-01-15T09:45:03] [INFO   ] trading_bot — ====================================================
+[2025-01-15T09:45:03] [INFO   ] trading_bot — ✅ Order placed successfully!

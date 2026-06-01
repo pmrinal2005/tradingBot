@@ -1,0 +1,8 @@
+# NeonTrader — Binance Futures Testnet Bot
+# Install with: pip install -r requirements.txt
+
+# HTTP requests library (used for all Binance REST API calls)
+requests>=2.31.0
+
+# Load API credentials from .env file (optional but recommended)
+python-dotenv>=1.0.0
