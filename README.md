@@ -125,7 +125,7 @@ python cli.py --help
 
 ---
 
-## 🔐 How HMAC Signing Works
+## 🔐 How HMAC Signing Actually Works
 
 Every private API request requires a cryptographic signature:
 
