@@ -1,4 +1,4 @@
-# ⚡ NeonTrader — Binance Futures Testnet Bot
+# ⚡ NeonTrader — The Binance Futures Testnet Bot
 
 A clean, production-quality Python trading bot for **Binance USDT-M Futures Testnet** with a stunning dark neon UI dashboard.
 
