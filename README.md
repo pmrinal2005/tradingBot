@@ -9,7 +9,7 @@ A clean, production-quality Python trading bot for **Binance USDT-M Futures Test
 
 ---
 
-## 📂 Project Structure
+## 📂 The Project Structure
 
 ```
 trading_bot/
